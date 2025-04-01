@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Ghosted Café | Where every sip is a warm embrace.</title>
+    <style>
+        /* General Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #7c6840;
+            text-align: center;
+            scroll-behavior: smooth;
+        }
+        /* Header and Navigation */
+        header {
+            background-color: #5c3d2e;
+            color: burlywood;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            background-color: #c49a6c;
+            border-radius: 5px;
+        }
+        /* Sections */
+        section {
+            padding: 80px 20px;
+            min-height: 100vh;
+        }
+        /* Home Section - Landscape Image */
+        #home {
+            background: url('IMG_20250331_113156.jpg') no-repeat center center;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            width: 100%;
+        }
+        /* About Us Section - Full Screen Image */
+        #about {
+            position: relative;
+            width: 100%;
+            height: 100vh; /* Full screen */
+            background: url('Messenger_creation_51AF7E03-E963-4F00-B7CF-CEF7CDB32C2A.png') no-repeat center center;
+            background-size: cover; /* Full-screen background */
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        #about .about-text {
+            background: rgba(0, 0, 0, 0.5); /* Adds contrast for readability */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        /* Menu Section with Background Image */
+        #menu {
+            position: relative;
+            width: 100%;
+            min-height: 100vh;
+            background: url('Messenger_creation_5F322970-5872-4E1F-8F2F-7F884B47F09D.png') no-repeat center center;
+            background-size: cover;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+
+        }
+        #menu .menu-container {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 30px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        .menu-item {
+            background-color: #f8f1e4;
+            padding: 15px;
+            margin: 10px;
+            display: inline-block;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+            color: black;
+        }
+        /* Footer */
+        footer {
+            background-color: #5c3d2e;
+            color: white;
+            padding: 10px 0;
+            position: relative;
+        }
+
+        /* Contact Us Section with Image */
+        #contact {
+            position: relative;
+            width: 100%;
+            height: 100vh; /* Full screen */
+            background: url('IMG_20250331_113156.jpg') no-repeat center center;
+            background-size: cover;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        #contact .contact-text {
+            background: rgba(0, 0, 0, 0.5); /* Adds contrast */
+            padding: 20px;
+            border-radius: 10px;
+
+        /* Footer */
+        footer {
+            background-color: #5c3d2e;
+            color: white;
+            padding: 10px 0;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>The Ghosted Café</h2>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to The Ghosted Café</h1>
+        <p>Your daily dose of coffee and comfort.</p>
+    </section>
+
+    <section id="about">
+    </section>
+
+    <section id="menu"> 
+    <h1>Our Menu</h1>
+        <div class="menu-item">☕ Espresso - ₱160 </div>
+        <div class="menu-item">☕ Cappuccino - ₱140 </div>
+        <div class="menu-item">☕ Latte - ₱130 </div>
+        <div class="menu-item">🥤 Iced Coffee - ₱100 </div>
+        <div class="menu-item">🥐 Croissant - ₱180 </div>
+        <div class="menu-item">🍰 Cheesecake - ₱120 </div>
+</section>
+    <section id="contact">
+        
+        <h1>Contact Us</h1>
+        
+        <p>📍 143 Coffee Street, San Jose, Tarlac</p>
+        <p>📞 (123) 456-7890</p>
+        <p>📧 info@ghostedcafe.com</p>
+    </section>
+
+    <footer>
+        <p>© 2025 Ghosted Café. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
